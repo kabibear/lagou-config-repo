@@ -1,2 +1,6 @@
-lagou:
-  message: hello lagou
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou_training?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: root
